@@ -8,14 +8,10 @@
 ![Gin](https://img.shields.io/badge/Gin-1.12.0-00ADD8?style=for-the-badge)
 ![Ethereum](https://img.shields.io/badge/Ethereum-go--ethereum-3C3C3D?style=for-the-badge&logo=ethereum)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-
-
-
 ---
+</div>
 
 ## ✨ 功能
-
 - 🔐 创建以太坊钱包（地址 + 私钥）
 - 💰 查询 ETH 余额
 - 🔄 ETH 转账（签名、广播、确认）
@@ -34,8 +30,6 @@ go mod download
 # 启动服务
 go run main.go
 ```
-
-
 
 服务运行在 `http://localhost:8080`
 
@@ -56,7 +50,7 @@ json
 ```json
 {  
 	"address": "0x063FF56B25e73f6f3fD0f05ebD3c997381651f1E",  
-	 "private_key": "2963e00590c97df15becb62514b5fc102f518d60142b96224151a092b49bf754" 
+	 "private_key": "2963e00590c97df15becb62514b5fc102f518d60142b96224151a092b49bf754"
 }
 ```
 
